@@ -63,8 +63,24 @@ td {
   font-family: arial black;
 }
 
-// エラーメッセージ
+// サクセスメッセージ
 .notice {
   color: green;
   padding-left: 20px;
+}
+
+// エラーメッセージ 
+.error {
+  border: solid 2px red;
+  width: 500px;
+}
+
+.error h4 {
+  background-color: red;
+  color: white;
+}
+
+.error li {
+  padding-left: 50px;
+  list-style-position: inside;
 }
